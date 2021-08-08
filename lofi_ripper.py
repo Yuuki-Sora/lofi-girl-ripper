@@ -58,7 +58,7 @@ def generate_file_url_list():
                 print(f'Finding web urls of file download pages... progress: {len(lofi_file_page_urls)}', end='\r')
         time.sleep(random.randint(8, 12))
 
-    print(f'Finding web urls of file download pages... done, total count = {len(lofi_file_page_urls)}')
+    print(f'Finding web urls of file download pages... done, total count: {len(lofi_file_page_urls)}')
 
 def fetch_files_from_drive():
     progress = 0
