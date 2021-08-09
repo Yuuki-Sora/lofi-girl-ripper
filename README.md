@@ -3,7 +3,7 @@ Hey there! You should probably read this ↓↓↓ first, idk it just looks pret
 >Disclaimer: this program and all the associated files are only intended for educational purporses. Please do not use them to cause harm to any third party and/or the author. 
 
 ## A neat little Python program to rip *all* the tracks from the Lofi Girl (or more formally, "Lofi Records") at once, with a (close to) fully automated process. 
-(Below are the zh-cn and jp translations.)
+(Below are the `zh-cn` and `jp` translations.)
 
 ---
 如果您看不太懂英语：使用此Python程序，您可以一次性将Lofi Girl（正式称呼为Lofi Records）网站上的*所有*歌曲进行下载。下载的过程几乎是全自动的。如果您不知道该如何使用该程序，还烦请您自行用翻译软件进行翻译参考。（如果翻译后也看不懂的话，当然提问也是OK的。）
@@ -11,7 +11,7 @@ Hey there! You should probably read this ↓↓↓ first, idk it just looks pret
 英語が苦手な方へ：このPythonプログラムによって、一発でLofi Girl（正式にはLofi Recordという）のウェブサイトから*すべての*音楽をダウンロードできます。因みにほぼ全自動です。使い方が分からない場合には、お手数ですが、自力でどこかの翻訳ソフトで訳してみてください。（もちろんそれでも分からない場合だったら質問をいただいてもオッケーです。）
 
 ---
-Dependencies: requests, bs4, gdown\
+Dependencies: `requests`, `bs4`, `gdown`\
 Please make sure you have the above libraries available before trying out this program. 
 
 If you don't have them installed or have no idea what they are, run these commands in your terminal. 
@@ -20,7 +20,7 @@ pip install requests
 pip install bs4
 pip install gdown
 ```
-If you don't have pip installed, click [here](https://pip.pypa.io/en/stable/installation/) to see their documentations regarding the installation process. 
+If you don't have `pip` installed, click [here](https://pip.pypa.io/en/stable/installation/) to see their documentations regarding the installation process. 
 
 This program was written with Python 3.9.4, but it should work on pretty much any version you might have already installed. \
 If it somehow doesn't work with your version, try updating Python. It might help. 
@@ -31,7 +31,7 @@ It's simple. First clone this repository into an existing folder on your device,
 ```
 git clone https://github.com/Yuuki-Sora/lofi-girl-ripper
 ```
-Next, somehow navigate into the cloned folder (maybe with a "cd" command if you're running Linux), and run the following command to start the execution of the prorgam. 
+Next, somehow navigate into the cloned folder (maybe with a `cd` command if you're running Linux), and run the following command to start the execution of the prorgam. 
 ```
 python lofi_ripper.py
 ```
@@ -47,7 +47,7 @@ When prompted the follwoing:
 [y]es to clear the existing url list and recreate it. 
 Note that this may take quite some time to avoid reCAPTCHA: 
 ```
-Please input "y" if you're launching the program for the first time, or wish to regenerate the list of links to the downloadable files. 
+Please input `y` if you're launching the program for the first time, or wish to regenerate the list of links to the downloadable files. 
 
 >Note that since the target website is protected by reCAPTCHA, there is a random delay of around 10 seconds between each accesses. \
 It might seem slow, but trust me, it's better than getting banned. \
@@ -58,7 +58,7 @@ However, if you've already created the lists and do not want to update them, you
 ```
 [y]es to fetch files from existing url list: 
 ```
-If you wish to re-download all the music files using the existing lists, please input "y". 
+If you wish to re-download all the music files using the existing lists, please input `y`. 
 
 The download process should then start, and when finished it should look something like this: 
 ![A Screenshot](スクリーンショット.png)
